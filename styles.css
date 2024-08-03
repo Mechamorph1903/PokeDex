@@ -17,9 +17,10 @@ h1{
 }
 
 .button-img{
-    width: 30px; /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
-    margin-right: 8px; /* Space between image and text */
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    margin-left: 8px; 
 }
 
 #random-poke{
