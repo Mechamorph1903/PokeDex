@@ -1,5 +1,8 @@
 body{
-    background: linear-gradient(to bottom,  #D6092E, white);
+    /* background: linear-gradient(to bottom,  #D6092E, white); */
+    background-image: url(poke\ ball\ blue.jpeg);
+    /* background-repeat: no-repeat;*/
+    background-size: 380px;
     display: flex;
     text-align: center;
     flex-direction: column; 
@@ -8,8 +11,10 @@ body{
 }
 
 h1{
-    color: white;
+    color: black;
     font-weight: 700;
+    font-size: 70px;
+    background-color: whitesmoke;
 }
 #header-img{
     width: 40px;
@@ -28,27 +33,31 @@ h1{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    border: none;
+    border: 2px solid black;
     background-color: #6390F0;
     cursor: pointer;
     font-size: 16px;
+    width: 50%;
+    
 
 }
 #search-area{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
 }
 #inner-search-area{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 #search-button{
     background-color: #C22E28;
     color: white;
     font-weight: 700;
-    width: 100px;
+    /* width: 100px; */
     height: 40px;
     border-radius: 10px;
     border: 0px;
@@ -56,13 +65,15 @@ h1{
     align-items: center;
     cursor: pointer;
     font-size: 16px;
+    border: 2px solid black;
+    margin-left: 10px;
 }
 
 .container{
     background-color: rgb(111, 111, 111);
     color: white;
-    width: 500px;
-    height: 750px;
+    width: 550px;
+    height: 780px;
     padding: 5px;
     justify-content: space-around;
     border-radius: 3px;
@@ -70,6 +81,11 @@ h1{
 
 #poke-id{
     font-size: large;
+}
+
+#poke-img{
+    width: 150px;
+    height: 150px;
 }
 
 #poke-measure{
@@ -163,10 +179,11 @@ h1{
 
 #graphic-display-area{
     background-color: aliceblue;
-    height: 250px;
-    width: 100%;
+    height: 300px;
+    width: 98%;
     margin-bottom: 20px;
     color: black;
+    padding: 5px;
 }
 
 #graphic-display-area > p > span{
@@ -178,7 +195,7 @@ h1{
 }
 
 #image-container{
-    height: 100px;
+    height: 45%;
     margin-bottom: 30px;
 }
 

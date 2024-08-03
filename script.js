@@ -70,7 +70,7 @@ const displayImages = (index, list) => {
     if (index >= imagesArr.length){
         index = 0;
     }
-    pokeImageContainer.innerHTML = `<img src="${imagesArr[index]}" alt="${name}"/>`;
+    pokeImageContainer.innerHTML = `<img src="${imagesArr[index]}" alt="${name}" id="poke-img"/>`;
     currentIntervalId = setTimeout(() => {
         pokeImageContainer.innerHTML = ``;
         displayImages(index + 1, list)
