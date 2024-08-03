@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>PokéDex</title>
+    
+</head>
+<body>
+    <h1>PokéDex <span><img src="pika happy.svg" alt="" id="header-img"></span></h1>
+
+    <div class="container">
+        <div id="search-area">
+            <label for="search-input">Search for Pokémon Name or ID:</label>
+            <div id="inner-search-area">
+                <input type="text" name="" id="search-input" placeholder="id or name" required>
+                <button id="search-button">
+                    Search
+                <img src="char.svg" alt="" class="button-img">
+                </button>
+            </div>
+            <button id="random-poke">
+                <img src="pikachu.svg" alt="" class="button-img">
+                Random Pokémon?
+                <img src="pokeball.svg" alt="" class="button-img"/>
+            </button>
+        </div>
+        <div id="graphic-display-area">
+            <p id="poke-id"><span id="pokemon-name"></span><span id="pokemon-id"></span></p>
+            <p id="poke-measure"><span id="weight"></span><span id="height"></span></p>
+            <div id="image-container"></div>
+            <p id="type-display"></p>
+        </div>
+        <div id="stats-display-area">
+            <table>
+                <thead>
+                    <th>Base</th>
+                    <th>Stats</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="stat-name">HP:</td>
+                        <td id="hp" class="stat-num"></td>
+                    </tr>
+                    <tr>
+                        <td class="stat-name">Attack:</td>
+                        <td id="attack" class="stat-num"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="stat-name">Defense:</td>
+                        <td id="defense" class="stat-num"></td>
+                    </tr>
+                    <tr>
+                        <td class="stat-name">Sp. Attack:</td>
+                        <td id="special-attack" class="stat-num"></td>
+                    </tr>
+                    <tr>
+                        <td>Sp. Defense:</td>
+                        <td id="special-defense" class="stat-num"></td>
+                    </tr>
+                    <tr>
+                        <td class="stat-name">Speed:</td>
+                        <td id="speed" class="stat-num"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
