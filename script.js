@@ -103,7 +103,6 @@ const randomPokemon = async () => {
         const randomIndex = Math.floor(Math.random() * validPoke.length);
         searchInput.innerText =``
         searchInput.value = `${validPoke[randomIndex]}`
-        console.log(pokeList2);
         fetchPokemon();
     } catch (err){
         alert("Pokémon List could not be Fetched")
