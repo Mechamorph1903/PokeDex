@@ -8,3 +8,5 @@ Key features of the app include:
 
 - Random Button: For those feeling adventurous, the Random button introduces you to a randomly selected Pokémon, making it a fun way to discover new Pokémon you may not have encountered before.
 Whether you're a seasoned Pokémon Trainer or just starting your journey, Pokédex makes it easy to access comprehensive Pokémon data in one convenient place.
+
+<img src="videoWalkthrough.gif"/>
