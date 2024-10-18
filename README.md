@@ -4,6 +4,7 @@ Pokédex is a user-friendly app designed for Pokémon enthusiasts, providing an 
 
 Key features of the app include:
 
-Search Bar: Quickly find specific Pokémon by name or ID. The intuitive search bar helps users instantly pull up detailed information about their desired Pokémon.
-Random Button: For those feeling adventurous, the Random button introduces you to a randomly selected Pokémon, making it a fun way to discover new Pokémon you may not have encountered before.
+- Search Bar: Quickly find specific Pokémon by name or ID. The intuitive search bar helps users instantly pull up detailed information about their desired Pokémon.
+
+- Random Button: For those feeling adventurous, the Random button introduces you to a randomly selected Pokémon, making it a fun way to discover new Pokémon you may not have encountered before.
 Whether you're a seasoned Pokémon Trainer or just starting your journey, Pokédex makes it easy to access comprehensive Pokémon data in one convenient place.
